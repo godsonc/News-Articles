@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: #eee;
+}
+
+.showcase {
+  
+  height: 400px;
+}
+
+.showcase .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media(min-width: 1024px){
+  .showcase{
+    background: url("https://media.istockphoto.com/photos/online-news-in-mobile-phone-close-up-of-smartphone-screen-man-reading-picture-id1065782416") no-repeat top/cover;
+  }
+} 
